@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.divMain404 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.divMain404 img {
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+.link{
+    text-decoration: none;
+    width: 100%;
+}
+.BTNbackHome {
+    width: 100%;
+    height: 70px;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 5px;
+    color: green;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+
+}
+.BTNbackHome:hover{
+    background-color: green;
+    color: white;
+    transition: .6s;
+}

@@ -1,0 +1,28 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.divMainContainerinApp{
+    width: 100%;
+    height: calc(100vh - 61px);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.links {
+    color: white !important;
+    text-decoration: none;
+}
+
+
+
+

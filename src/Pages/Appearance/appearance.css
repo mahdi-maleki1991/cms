@@ -1,0 +1,94 @@
+.divConTheme {
+    width: 100%;
+    height: auto;
+    min-height: calc(100vh - 75px);
+    /* border: 1px solid var(--borderColor1); */
+    background-color: var(--bgColor1);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.divMainBoxTheme {
+    width: 270px;
+    height: 300px;
+    border: 1px solid var(--borderColor1);
+    background-color: var(--bgColor1);
+    box-shadow: 3px 3px 10px 3px rgba(88, 88, 88, 0.589);
+    color: var(--textColor1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.divMainBoxTheme:hover{
+    box-shadow: 1px 1px 13px 3px rgba(88, 88, 88, 0.774);
+
+}
+.spanKeeperThem {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btnKeeperBoxThem {
+    display: flex;
+    justify-content: center;
+}
+
+.btnKeeperBoxThem input {
+    width: 200px;
+    height: 35px;
+    margin: 5px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+
+.btnKeeperBoxThem input:nth-child(1) {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(167, 167, 167);
+    color: rgb(53, 53, 53);
+    font-weight: 700;
+}
+
+.btnKeeperBoxThem input:nth-child(2) {
+    background-color: rgb(0, 104, 0);
+    border: 1px solid rgb(0, 104, 0);
+    color: white;
+    font-weight: 700;
+}
+
+.spanKeeperThem span {
+    padding: 10px;
+    min-width: 70px;
+    text-align: center;
+    background-color: red;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+    color: rgb(236, 30, 219);
+    font-weight: 600;
+}
+
+.spanKeeperThem span:nth-child(1) {
+    background-color: green;
+}
+
+.spanKeeperThem span:nth-child(2) {
+    background-color: rgb(0, 0, 0);
+}
+
+.spanKeeperThem span:nth-child(3) {
+    background-color: tomato;
+}

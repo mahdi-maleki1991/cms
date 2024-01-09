@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.divMainSideBarLeft {
+    width: 220px;
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    z-index: 10;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    padding: 20px 0px 0px 0px;
+    transition: width 1s;
+    animation-name: an1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes an1 {
+    0% {
+        min-width: 0px;
+    }
+
+    100% {
+        min-width: 200px;
+    }
+}
+
+.divMainSideBarLeftClose {
+    width: 0px;
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+    padding: 20px 0px 0px 0px;
+    transition: width 1s;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.divMainSideBarLeft::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(192, 192, 192);
+    border-right: 1px solid rgb(170, 170, 170);
+}
+
+.divMainSideBarLeft::-webkit-scrollbar-thumb {
+    background-color: rgb(94, 94, 94);
+    border-radius: 1px;
+}
+
+.ulAdmin {
+    width: 100%;
+    height: 120px;
+    list-style-type: none;
+    margin-top: 0px;
+    padding-left: 13px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    overflow: hidden;
+    transition: height 1s;
+    color: white;
+
+}
+
+.ulAdmin2 {
+    width: 100%;
+    height: 270px;
+    list-style-type: none;
+    margin-top: 0px;
+    padding-left: 13px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    overflow: hidden;
+    transition: height 1s;
+    color: white;
+
+}
+
+.ulAdminClose {
+    width: 100%;
+    height: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+    padding-left: 13px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    overflow: hidden;
+    transition: height 1s;
+    color: white;
+
+}
+
+.divMainSideBarLeftClose li {
+    border-left: 1px dashed rgb(80, 80, 80);
+    margin: 5px 0px 0px 15px;
+    padding: 5px 2px 5px 10px;
+    font-size: 14px;
+    min-width: 150px;
+
+}
+
+.divMainSideBarLeft li {
+    border-left: 1px dashed rgb(80, 80, 80);
+    margin: 5px 0px 0px 15px;
+    padding: 5px 2px 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 170px;
+}
+
+.divMainSideBarLeft li:hover {
+    background-color: rgb(58, 58, 58);
+    border-left: 1px dashed rgb(245, 245, 245);
+}
+
+.spanAdminList {
+    font-size: 14px;
+    color: white;
+    margin: 0px 0px 15px 15px;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 150px;
+}
+.spanAdminListNoGR{
+    font-size: 14px;
+    color: white;
+    margin: 10px 0px 35px 15px;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 150px;   
+}
+.IconsSidbarMain {
+    margin-right: 5px;
+}
+
+.iconsSidbarItems {
+    margin-right: 5px;
+}

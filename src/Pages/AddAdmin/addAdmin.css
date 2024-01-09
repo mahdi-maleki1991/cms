@@ -1,0 +1,250 @@
+.hHeader {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--textColor1);
+    padding-left: 20px;
+}
+
+
+.divmainAddAdmin {
+    min-height: 200px;
+    border-radius: 5px;
+}
+
+
+.colInfoAddAdmin {
+    min-height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.colIMGAddAdmin {
+    min-height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 310px !important;
+    display: flex;
+    align-self: center;
+}
+
+.divInfoAddAdmin {
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    border: 1px solid var(--borderColor1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.divIMGAddAdmin {
+    width: 100%;
+    max-width: 320px;
+    min-height:350px;
+    border: 1px solid var(--borderColor1);
+    overflow: hidden;
+    border-radius: 7px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+.divIMGAddAdmin span {
+    font-size: 12px;
+    margin-top: 15px;
+    color: var(--textColor1);
+}
+.divBTNsubmitAdmin{
+    width: 100%;
+    height: 40px;
+    border: 1px solid green;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: var(--textColor1);
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+.divBTNsubmitAdmin:hover{
+    background-color: white;
+    color: green;
+    transition: 0.6s;
+}
+.divBTNsubmitAdminDisable{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(158, 158, 158);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 158, 158);
+    color: rgb(124, 124, 124);
+    border-radius: 5px;
+    user-select: none;
+    cursor:default !important;
+}
+.divIMGUplodKeper {
+    width: 100%;
+    min-height: 250px;
+    max-height: 300px;
+    position: relative;
+
+}
+
+.imgUploadAddAdmin {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    border-bottom: 2px dashed rgb(231, 231, 231);
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 5px;  
+}
+
+.fillAddAdmin {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.inputsAddAdmin {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 4px;
+    padding-left: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.iconInInputBoxexAdminAdd{
+    position: absolute;
+    z-index: 2;
+    font-size: 17px;
+    top: 5px;
+    left: 7px;
+    color: rgba(34, 152, 206, 0.849);
+}
+.divInputAdminKeeper {
+    width: 100%;
+    height: 30px;
+    max-width: 450px;
+    margin-top: 10px;
+    position: relative;
+
+}
+.textAreaAddreAdmin{
+    width: 100%;
+    height: 80px;
+    max-width: 450px;
+    resize: none;
+    margin-top: 10px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(141, 141, 141);
+    
+}
+.divInfoAddAdmin2 {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 7px;
+
+}
+
+.divChoosWMaddAdmin {
+    width: 47px;
+    height: 25px;
+    border: 1px solid rgb(34, 151, 206);
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.divCircleChoosWM {
+    width: 24px;
+    height: 100%;
+    background-color: rgb(34, 151, 206);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: right 0.7s;
+    z-index: 2;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.divCircleChoosWM2 {
+    width: 24px;
+    height: 100%;
+    background-color: rgb(34, 151, 206);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 21px;
+    transition: right 0.7s;
+    z-index: 2;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.divRadioAdminKeeper span:nth-child(2) {
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    color: rgba(34, 152, 206, 0.849);
+    user-select: none;
+}
+
+.divRadioAdminKeeper span:nth-child(3) {
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    color: rgba(34, 152, 206, 0.849);
+    user-select: none;
+}
+
+.rengeLevelAdmin {
+    width: 150px;
+}
+
+#datalistAdminLv {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.iconStarOneAdmin{
+    color: tomato;
+    font-size: 13px;
+}
