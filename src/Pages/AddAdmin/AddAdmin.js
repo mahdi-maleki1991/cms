@@ -294,7 +294,7 @@ export default function AddAdmin() {
                                 <img src={imgUpdateAddAdmin.value == '' ?
                                     adminAllInfo.gender ?
                                         'https://cdn-icons-png.flaticon.com/512/3001/3001764.png' :
-                                        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.veryicon.com%2Ficons%2Fbusiness%2Fbusiness-v2%2Fwoman.html&psig=AOvVaw0Y4ALTCmi9ZfbHo4dh1w8Y&ust=1704922890970000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjYkvGi0YMDFQAAAAAdAAAAABAD'
+                                        'https://icons.veryicon.com/png/Business/Business%20V2/woman.png'
                                     : imgUpdateAddAdmin.value} className='imgUploadAddAdmin' />
                                 <input type="file" className='fillAddAdmin' ref={refIMGAdmin} onChange={(event) => setIMGaddAdmin(event)} />
                             </div>
